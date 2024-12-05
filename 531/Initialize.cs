@@ -18,7 +18,8 @@
                 case DayOfWeek.Friday:
                     Services.SquatService.TrainingDay(mainSets);
                     break;
-                case DayOfWeek.Sunday: // Press
+                case DayOfWeek.Sunday: 
+                    Services.PressService.TrainingDay(mainSets);
                     break;
                 default:
                     Console.WriteLine("ZzZzZ...");

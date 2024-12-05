@@ -13,7 +13,8 @@
                 case DayOfWeek.Monday: 
                     Services.DeadliftService.TrainingDay(mainSets);
                     break;
-                case DayOfWeek.Wednesday: // Bench
+                case DayOfWeek.Wednesday:
+                    Services.BenchService.TrainingDay(mainSets);
                     break;
                 case DayOfWeek.Friday:
                     Services.SquatService.TrainingDay(mainSets);

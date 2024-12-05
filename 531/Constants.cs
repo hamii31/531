@@ -6,19 +6,19 @@
         {
             public static class Squat
             {
-                public const string Path = @"C:../../../TrainingMaxes/Front_Squat.txt";
+                public const string Path = @"C:../../../TrainingLog/Front_Squat.txt";
             }
             public static class Deadlift
             {
-                public const string Path = @"C:../../../TrainingMaxes/Conventional_Deadlift.txt";
+                public const string Path = @"C:../../../TrainingLog/Conventional_Deadlift.txt";
             }
             public static class Press
             {
-                public const string Path = @"C:../../../TrainingMaxes/Z_Press.txt";
+                public const string Path = @"C:../../../TrainingLog/Z_Press.txt";
             }
             public static class InclineBench
             {
-                public const string Path = @"C:../../../TrainingMaxes/Incline_Bench.txt";
+                public const string Path = @"C:../../../TrainingLog/Incline_Bench.txt";
             }
         }
         public static class Percentages
